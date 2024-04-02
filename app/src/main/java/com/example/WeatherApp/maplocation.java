@@ -92,7 +92,7 @@ public class maplocation extends AppCompatActivity {
                             LatLng latLng = new LatLng(location.getLatitude(),
                                     location.getLongitude());
 
-                            String url = "https://api.openweathermap.org/data/2.5/weather?lat="+location.getLatitude()+"&lon="+location.getLongitude()+"&appid=f912645fddc8b77dbf1787e06940a561";
+                            String url = "https://api.openweathermap.org/data/2.5/weather?lat="+location.getLatitude()+"&lon="+location.getLongitude()+"&appid=YOUR_OpenWeatherAPI_KEY";
                             StringRequest stringRequest = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
                                 @Override
                                 public void onResponse(String response) {
