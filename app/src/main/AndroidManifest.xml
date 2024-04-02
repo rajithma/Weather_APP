@@ -16,7 +16,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDKJN3Ctmrtn2MBuv1dTUdowM2ugDu8Uuc"/>
+            android:value="YOUR_GOOGLEMAP_API_KEY"/>
         <activity
             android:name="com.example.WeatherApp.maplocation"
             android:exported="true" />
