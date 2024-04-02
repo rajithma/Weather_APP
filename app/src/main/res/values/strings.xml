@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="welcome_weather_map">Welcome Weather Map</string>
+    <string name="current_address">Current Address</string>
+    <string name="show_map">Show Map</string>
+    <string name="weather_report">Weather Report</string>
+</resources>
